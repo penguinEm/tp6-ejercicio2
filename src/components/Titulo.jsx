@@ -1,7 +1,7 @@
 const Titulo = ({ cambiarTitulo }) => {
   return (
     <main>
-      <h2>Hello {cambiarTitulo}</h2>
+      <h1>Hello {cambiarTitulo}</h1>
     </main>
   );
 };
