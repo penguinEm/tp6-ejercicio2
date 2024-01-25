@@ -1,8 +1,8 @@
 const Titulo = ({ cambiarTitulo }) => {
   return (
-    <main>
-      <h1>Hello {cambiarTitulo}</h1>
-    </main>
+    <section>
+      <h1 className="color-titulo">Hello {cambiarTitulo}</h1>
+    </section>
   );
 };
 
